@@ -13,8 +13,6 @@
     font-family: 'YES24';
     color: #fff;
     font-size: 20px;
-    /* height: 60px; */
-    /* line-height: 60px; */
     padding-right: 20px;
     text-decoration: none;
  
@@ -26,21 +24,26 @@
     position: absolute;
     top:0px;
     right:10px;
-    background-color: #fff;
+    background-color: #ffffff;
 }
+
 .mega .me-1{
     z-index: 10;
     position: relative;
 }
-
 .mega .me-1>ul>li{
     list-style-type: none;
     font-size: 15px;
     padding: 10px 0 12px 0;
 }
+.mega .me-1>ul>li:hover{
+
+    background-color: #f5f2ed;
+}
 .nva>li>div>ul{
     display: flex;
     flex-wrap: wrap;
+    width: 600px;
 }
 .nva>li{
     width: 100px;
@@ -53,15 +56,14 @@
 }
 .nva>li>div>ul>li{
     width: 150px;
-    text-align: left;
-    padding: 10px 5px 0 10px;
+    height: 38px;
 }
 .ko-2, .fo-2, .use-2, .crama-2, .eb-2, .cd-2, .dvd-2, .fan-2, .tic-2{
     position: absolute;
     left: 100px;
     top: 0px;
     width: 300px;
-    background-color: rgb(95, 180, 255);
+/
 }
 .mega .ko-2>ul>li, .fo-2>ul>li, .use-2>ul>li, .cd-2>ul>li, .dvd-2>ul>li, .fan-2>ul>li, .tic-2>ul>li{
     /* display: inline-block; */
@@ -72,7 +74,28 @@
 .me-1>ul>li>a, .me-1>ul>li>div>ul>li>a{
     text-decoration: none;
     width: 100px;
+    text-align: center;
     display: inline-block;
+    color: #000;
+}
+.me-1>ul>li>div>ul>li>a{
+    padding: 12px 0px;
+    width: 150px;
+    transition: 0.3s all ease-in-out;
+}
+.me-1>ul>li>div>ul>li>a:hover, .me-1>ul>li>div>a:hover{
+    font-size: 17px;
+    background-color: rgb(95, 180, 255);
+}
+.crama-2>a, .eb-2>a, .tic-2>a{
+    text-decoration: none;
+    font-family: 'Pretendard-Regular';
+    display: block;
+    text-align: center;
+    width: 150px;
+    padding: 12px 0;
+    color:#007aff;
+    transition: 0.3s all ease-in-out;
 }
 /* 메가 창 켜기 */
 
