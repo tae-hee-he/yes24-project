@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.top2 .mega>.txt>a{
+    font-family: 'YES24';
+    color: #fff;
+    font-size: 20px;
+    /* height: 60px; */
+    /* line-height: 60px; */
+    padding-right: 20px;
+    text-decoration: none;
+ 
+}
+.mega{
+    position: relative;
+}
+.mega>.me-1>.nva{
+    position: absolute;
+    top:0px;
+    right:10px;
+    background-color: #fff;
+}
+.mega .me-1{
+    z-index: 10;
+    position: relative;
+}
+
+.mega .me-1>ul>li{
+    list-style-type: none;
+    font-size: 15px;
+    padding: 10px 0 12px 0;
+}
+.nva>li>div>ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nva>li{
+    width: 100px;
+    text-align: center;
+}
+.nva>li>div{
+    height: 380px;
+    width: 600px;
+    background-color: white;
+}
+.nva>li>div>ul>li{
+    width: 150px;
+    text-align: left;
+    padding: 10px 5px 0 10px;
+}
+.ko-2, .fo-2, .use-2, .crama-2, .eb-2, .cd-2, .dvd-2, .fan-2, .tic-2{
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    width: 300px;
+    background-color: rgb(95, 180, 255);
+}
+.mega .ko-2>ul>li, .fo-2>ul>li, .use-2>ul>li, .cd-2>ul>li, .dvd-2>ul>li, .fan-2>ul>li, .tic-2>ul>li{
+    /* display: inline-block; */
+    font-family: 'Pretendard-Regular';
+    list-style-type: none;
+
+}
+.me-1>ul>li>a, .me-1>ul>li>div>ul>li>a{
+    text-decoration: none;
+    width: 100px;
+    display: inline-block;
+}
+/* 메가 창 켜기 */
+
+.top2 .mega .me-1{
+    display: none;
+    background-color: white;
+}
+.top2 .mega:hover .me-1{
+    display: block;
+}
+
+.ko-2, .fo-2, .use-2, .crama-2, .eb-2, .cd-2, .dvd-2, .fan-2, .tic-2{
+    display: none;
+}
+.ko:hover .ko-2{
+    display: block;
+}
+.fo:hover .fo-2{
+    display: block;
+   }
+   
+.use:hover .use-2{
+    display: block;
+}
+.crama:hover .crama-2{
+    display: block;
+}
+
+.eb:hover .eb-2{
+    display: block;
+}
+
+.cd:hover .cd-2{
+    display: block;
+}
+.dvd:hover .dvd-2{
+    display: block;
+}
+.fan:hover .fan-2{
+    display: block;
+}
+.tic:hover .tic-2{
+    display: block;
+}
